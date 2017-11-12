@@ -9,7 +9,7 @@
     <meta name="author" content="">
 
     <title>Allá - va!</title>
-    <link rel="icon" type="image/png" href="img/allava.png">
+    <link rel="icon" type="image/png" href="img/isotipo.png">
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,6 +30,11 @@
     <style media="screen">
       .masthead{
         background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(img/40.jpg) !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+      }
+      .store{
+        background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(img/store.jpg) !important;
         background-repeat: no-repeat !important;
         background-position: center !important;
       }
@@ -65,7 +70,10 @@
               <a class="nav-link js-scroll-trigger museo-300" href="#features">Caracteristicas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger museo-300" href="#cta">Se parte</a>
+              <a class="nav-link js-scroll-trigger museo-300" href="#store">Se parte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger museo-300" href="#cta">¿Buscas trabajo?</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger museo-300" href="#contact">Contactanos</a>
@@ -80,7 +88,7 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5 museo-700">Allá-va! es una aplicación </h1>
+              <h1 class="mb-5 museo-700">Allá-va! es una app donde puedes comprar tu ropa y ademas te la entregamos con un bajo costo de envio y formas de pago seguras.</h1>
               <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger museo-900">Empieza ahora!</a>
             </div>
           </div>
@@ -90,7 +98,7 @@
                 <div class="device">
                   <div class="screen">
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/pantalla02.png" class="img-fluid" alt="">
+                    <img src="img/pantalla02.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -148,14 +156,14 @@
                   <div class="feature-item">
                     <i class="fa fa-motorcycle text-primary"></i>
                     <h3 class="museo-700">Entrega rápida</h3>
-                    <p class="text-muted museo-300">Put an image, video, animation, or anything else in the screen!</p>
+                    <p class="text-muted museo-300">Resibe tu ropa y accesorios al momento</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
                     <i class="icon-present text-primary"></i>
                     <h3 class="museo-700">Experiencia</h3>
-                    <p class="text-muted museo-300">As always, this theme is free to download and use for any purpose!</p>
+                    <p class="text-muted museo-300">Disfruta de esta inovadora forma de comprar ropa</p>
                   </div>
                 </div>
               </div>
@@ -164,14 +172,14 @@
                   <div class="feature-item">
                     <i class="fa fa-home text-primary"></i>
                     <h3 class="museo-700">Pruébatelo</h3>
-                    <p class="text-muted museo-300">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                    <p class="text-muted museo-300">Ten la posibolidad de probarte la ropa y devolverla si no es de tu agrado.</p>
                   </div>
                 </div>
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="fa fa-star-o text-primary"></i>
+                    <i class="fa fa-credit-card text-primary"></i>
                     <h3 class="museo-700">Recomendaciones</h3>
-                    <p class="text-muted museo-300">Since this theme is MIT licensed, you can use it commercially!</p>
+                    <p class="text-muted museo-300">Paga con tarjeta o efectivo</p>
                   </div>
                 </div>
               </div>
@@ -180,18 +188,37 @@
         </div>
       </div>
     </section>
-
-    <section class="cta" id="cta">
+    <section class="cta store" id="store">
       <div class="cta-content">
-        <div class="container">
-          <h2 class="museo-700" style="font-size: 60px">¿Te gustaría ser parte de nuestro <br> equipo de repartidores?</h2>
+        <div class="container " style="text-align: center">
+          <h1 class="museo-700" style="font-size: 60px; color: #FFFFFF;">Puedes hacer crecer tu negocio con nosotros</h1>
           <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger museo-900">Únete!</a>
         </div>
       </div>
       <div class="overlay"></div>
     </section>
 
-    <section class="contact bg-primary" id="contact">
+    <section class="download bg-primary text-center" id="download">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 mx-auto">
+            <h1 class="section-heading museo-700" style="font-size: 50px;">Allá-va! te da la oportunidad de pertenecer a una plataforma interactiva de venta en linea con repartidores. <br>Y asi llegar a mas clientes!</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" id="cta">
+      <div class="cta-content">
+        <div class="container" style="text-align: center">
+          <h1 class="museo-700" style="font-size: 60px; color: #FFFFFF;">¿Te gustaría ser parte de nuestro <br> equipo de repartidores?</h1>
+          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger museo-900">Únete!</a>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </section>
+
+    <section class="contact" id="contact">
       <div class="container">
         <h2 class="museo-900">
           <i class="fa fa-heart"></i>
